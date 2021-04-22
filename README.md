@@ -1,9 +1,9 @@
 # NASA API's : The Earth Observatory Natural Event Tracker (EONET) GRAPHQL
 
-<img src="./src/assets.1.png" width="350" alt="./src/assets.1.png.png">
-<img src="./src/assets.2.png" width="350" alt="./src/assets.2.png.png">
-<img src="./src/assets.3.png" width="350" alt="./src/assets.3.png.png">
-<img src="./src/assets.4.png" width="350" alt="./src/assets.4.png.png">
+<img src="./src/assets/1.png" width="350" alt="./src/assets/1.png.png">
+<img src="./src/assets/2.png" width="350" alt="./src/assets/2.png.png">
+<img src="./src/assets/3.png" width="350" alt="./src/assets/3.png.png">
+<img src="./src/assets/4.png" width="350" alt="./src/assets/4.png.png">
 
 Application built with react native frontent and grpahql backend.
 
