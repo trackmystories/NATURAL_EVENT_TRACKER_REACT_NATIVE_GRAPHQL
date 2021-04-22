@@ -1,4 +1,4 @@
-# NASA API's : The Earth Observatory Natural Event Tracker (EONET) GRAPHQL
+# EARTH DAY : react-native app tracks wild fires, icebergs, volcanoes and storms. built with react native Apollo graphQL #EARTHDAY
 
 <img src="./src/assets/main.png" width="350" alt="./src/assets/main.png">
 <img src="./src/assets/1.png" width="350" alt="./src/assets/1.png">
