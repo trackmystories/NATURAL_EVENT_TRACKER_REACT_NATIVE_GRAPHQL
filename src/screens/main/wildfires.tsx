@@ -25,6 +25,8 @@ export default function Wildfires({route}) {
       initialRegion={{
         latitude: 18.43361,
         longitude: -33.95692,
+        latitudeDelta: 0,
+        longitudeDelta: 0,
       }}
       style={styles.map}>
       <Map source={wildfire} data={data} />

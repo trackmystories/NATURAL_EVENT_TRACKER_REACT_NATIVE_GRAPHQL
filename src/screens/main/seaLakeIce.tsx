@@ -25,6 +25,8 @@ export default function SevereStorms({route}) {
       initialRegion={{
         latitude: 49.6,
         longitude: -10.2,
+        latitudeDelta: 0,
+        longitudeDelta: 0,
       }}
       style={styles.map}>
       <Map source={iceberg} data={data} />

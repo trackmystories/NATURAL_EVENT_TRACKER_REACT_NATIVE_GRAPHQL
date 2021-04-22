@@ -25,6 +25,8 @@ export default function SevereStorms({route}) {
       initialRegion={{
         latitude: -18.766947,
         longitude: 46.869107,
+        latitudeDelta: 0,
+        longitudeDelta: 0,
       }}
       style={styles.map}>
       <Map source={storm} data={data} />
