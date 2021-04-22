@@ -1,7 +1,6 @@
 import 'react-native-gesture-handler';
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
-import Privacy from './client/auth/Privacy';
 import {View, Text, AsyncStorage} from 'react-native';
 import {ApolloClient, InMemoryCache, ApolloProvider} from '@apollo/client';
 import {HttpLink} from 'apollo-link-http';
