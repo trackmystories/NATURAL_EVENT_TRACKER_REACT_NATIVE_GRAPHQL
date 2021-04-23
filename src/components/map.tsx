@@ -17,7 +17,7 @@ interface mainHeaderProps {
   data?: any;
 }
 
-export default function Map({route, source, data}) {
+const Map: React.FC<mainHeaderProps> = ({route, source, data}) => {
   return (
     <>
       {data.map((item, index) => {
@@ -36,7 +36,9 @@ export default function Map({route, source, data}) {
       })}
     </>
   );
-}
+};
+
+export default Map;
 
 const styles = StyleSheet.create({
   marker: {

@@ -3,7 +3,6 @@ import {
   BottomTabNavigationProp,
   createBottomTabNavigator,
 } from '@react-navigation/bottom-tabs';
-import {Home, SeaLakeIce, SevereStorms, Wildfires, Volcanoes} from '../screens';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import HomeNavigator from './HomeNavigator';
 import AccountNavigator from './AccountNavigator';
@@ -32,12 +31,15 @@ export default function BottomTabNavigator(): JSX.Element {
           let iconName;
           if (route.name === 'Home') {
             iconName = focused ? 'reorder-four' : 'reorder-four';
+          } else if (route.name === 'Account') {
+            iconName = focused ? 'ios-person' : 'ios-person';
           }
 
           return <Ionicons name={iconName} size={size} color={color} />;
         },
       })}>
       <Tab.Screen component={HomeNavigator} name="Home" />
+      <Tab.Screen component={AccountNavigator} name="Account" />
     </Tab.Navigator>
   );
 }

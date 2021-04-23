@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import {View, Text, Image, StyleSheet} from 'react-native';
 
 import nasa from '../assets/Eonet.png';
