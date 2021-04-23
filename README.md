@@ -1,5 +1,7 @@
 # EARTH DAY : react-native app tracks wild fires, icebergs, volcanoes and storms. built with react native Apollo graphQL #EARTHDAY
 
+### Note: this app is work in progress.
+
 video: https://youtu.be/8gNvQ1opNJo
 
 <img src="./src/assets/main.png" width="350" alt="./src/assets/main.png">
