@@ -9,7 +9,15 @@ import {TouchableOpacity} from 'react-native';
 import {enableScreens} from 'react-native-screens';
 enableScreens();
 
-const Acc = createNativeStackNavigator();
+type AccNavigatorParamList = {
+  default: undefined;
+};
+
+type NativeStackNavigationProps<
+  T extends keyof AccNavigatorParamList = 'default'
+> = NativeStackNavigationProp<AccNavigatorParamList, T>;
+
+const Acc = createNativeStackNavigator<AccNavigatorParamList>();
 
 function AccountNavigator() {
   return (
