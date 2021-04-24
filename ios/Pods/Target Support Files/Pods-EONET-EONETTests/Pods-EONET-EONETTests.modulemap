@@ -1,0 +1,6 @@
+module Pods_EONET_EONETTests {
+  umbrella header "Pods-EONET-EONETTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
