@@ -15,7 +15,7 @@ import volcanoes from '../../assets/volcanoes.jpeg';
 import ice from '../../assets/iceberg.jpeg';
 import {gql, useQuery} from '@apollo/client';
 
-const GET_EONET = gql`
+export const GET_EONET = gql`
   query EonetData {
     events {
       id
@@ -114,7 +114,7 @@ const GET_EONET = gql`
   }
 `;
 
-export default function Home() {
+const Home: React.FC<{}> = () => {
   const navigation = useNavigation();
   const {data, loading, error} = useQuery(GET_EONET);
 
@@ -171,4 +171,6 @@ export default function Home() {
       />
     </ScrollView>
   );
-}
+};
+
+export default Home;
